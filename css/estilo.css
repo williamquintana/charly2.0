@@ -1,0 +1,261 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;;
+    
+}
+@font-face {
+    font-family: fuenterandom;
+    src: url(/assets/fuente/Milyuna-Regular.ttf);
+}
+
+.body {
+    min-height: calc(100vh - (700px + 150));
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: fuenterandom;
+
+}
+
+
+header {
+    display: flex;
+    height: 1000px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+.botoncontac{
+    text-align: center;
+     color: #ffffff;
+    width: 100%;
+    padding-top: 500px;
+    font-size: 50px;
+}
+
+.botton{
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+}
+.botuno{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+}
+.botuno:hover{
+    background-color: rgba(255, 255, 255, 0.377);
+}
+
+.menu_sec {
+    display: flex;
+    background-color: #000000;
+    height: 90px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 0 10px rgb(255, 255, 255);
+    position: relative;
+}
+
+.menu {
+    position: fixed;
+    height: 85px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.menu_nav {
+    height: 85px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu_items {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    width: 60%;
+    justify-content: flex-end;
+}
+
+.menu_items li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu_items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.menu_items li:hover,
+li:active {
+    background-color: rgba(255, 255, 255, 0.377);
+    transition: .5s;
+}
+
+.div_img {
+    display: flex;
+    justify-self: flex-start;
+    width: 60%;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    justify-content: end;
+}
+
+.video_nav {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -3;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.scrol {
+    height: 100px;
+}
+
+.menu.active {
+    background-color: #545454;
+}
+
+.menu.active a {
+    color: rgb(255, 255, 255);
+}
+
+.menu.active .menu_items li:hover,
+li:active {
+    background-color: rgba(255, 255, 255, 0.377);
+    transition: .5s;
+}
+
+.contenedor_main {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.titulosbrmi{
+    text-align: center;
+}
+
+p { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container{
+    padding-top: 100px;
+}
+
+.text-center {
+    margin-bottom: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.div-m {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.div-video {
+    text-align: center;
+}
+
+.button-g {
+    text-align: center;
+    padding-top: 50px;
+}
+.btn2{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+}
+.btn2:hover{
+    background-color: rgba(255, 255, 255, 0.377);
+}
+
+.video_gal {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.parra {
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+form {
+    width: 850px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.sub-cont {
+    color: #fff;
+    text-align: center;
+    margin: 0%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#buttom-cont {
+    background-color: rgb(15, 11, 11);
+    color: #fff;
+    padding: 20px;
+}
+
+#buttom-cont:hover {
+    cursor: pointer;
+}
+.vid-cont{
+    position: absolute;
+    
+}
